@@ -1,0 +1,102 @@
+```plantuml
+@startuml skin azul
+
+skinparam actor {
+    BorderColor blue
+    BackgroundColor LightBlue
+    FontSize 14
+    FontStyle bold
+    FontColor DarkBlue
+} 
+skinparam ActorStereotypeFontColor DarkRed
+skinparam usecase {
+    BorderThickness 5
+    BorderColor LightSteelBlue
+    BackgroundColor WhiteSmoke
+    Shadowing false
+    FontName courier
+    LifeLineBorderColor blue
+    StereotypeFontColor Red
+}
+skinparam default {
+    FontName courier
+    FontSize 14  
+}
+skinparam rectangle{
+    BorderThickness 4
+    BorderColor DarkBlue
+}
+skinparam package {
+    StereotypeFontColor Red
+}
+skinparam note {
+    BackgroundColor DarkCyan
+    BorderColor Black
+    BorderThickness 4
+}
+
+skinparam Swinlane {
+    BorderThickness 3
+    TitleFontSize 12
+    BorderColor DarkBlue
+    TitleFontColor Black
+    TitleFontStyle bold
+}
+skinparam SwimlaneTitleBackgroundColor DeepSkyBlue
+skinparam Activity {
+    BackgroundColor DeepSkyBlue
+    BorderThickness 3
+    BorderColor LightSteelBlue
+    DiamondBackgroundColor White
+    DiamondFontStyle italic
+    DiamondBorderColor DarkTurquoise
+    DiamondFontColor FloralWhite
+    StartColor DarkBlue
+    EndColor DarkBlue
+}
+'clases
+skinparam ClassBackgroundColor LightCyan
+skinparam ClassFontColor Black
+skinparam ClassAttributeFontName courier
+skinparam ClassHeaderBackgroundColor DodgerBlue
+skinparam ClassBorderColor LightSteelBlue
+skinparam ClassBorderThickness 3
+skinparam ClassFontName courier
+skinparam ClassStereotypeFontColor DarkRed
+skinparam ClassStereotypeFontName courier
+skinparam ClassStereotypeFontSize 15
+skinparam StereotypeCBorderColor Blue
+skinparam StereotypeCBackgroundColor White
+skinparam CircledCharacterRadius 15
+skinparam CircledCharacterFontName symbol
+skinparam CircledCharacterFontSize 24
+skinparam CircledCharacterFontStyle bold
+skinparam PackageBackgroundColor SteelBlue
+skinparam PackageBorderColor LightSteelBlue
+skinparam PackageFontName courier
+skinparam PackageBorderThickness 4
+skinparam PackageStereotypeFontColor DarkBlue
+skinparam PackageFontSize 16
+'clase estereotipo archivo
+skinparam ClassHeaderBackgroundColor<<archivo>> AliceBlue
+skinparam ClassStereotypeFontColor<<archivo>> MidnightBlue
+skinparam FileStereotypeFontColor<<archivo>> MidnightBlue
+'flechas y lineas de conexion
+skinparam ArrowColor Black
+skinparam ArrowThickness 2
+skinparam linetype polyline
+skinparam linetype ortho
+'objetos
+skinparam ObjectBackgroundColor PowderBlue
+skinparam ObjectBorderColor Black
+skinparam ObjectBorderThickness 3
+'ocultar miembros
+hide empty members
+skinparam Handwritten false
+'base de datos
+skinparam DatabaseBackgroundColor LightSkyBlue/Wheat
+'allowmixing
+skinparam ActivityDiamondFontColor blue
+
+@enduml
+```plantuml
