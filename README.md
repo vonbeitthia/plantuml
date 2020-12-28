@@ -4,4 +4,6 @@
   ## inclusion
   
   mediante
-  ! include 
+  ```plantuml
+  !include https://raw.githubusercontent.com/vonbeitthia/plantuml/main/skin/blue.plantuml
+```
